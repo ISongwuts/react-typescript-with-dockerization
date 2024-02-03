@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-weight: bold;
+}
+
+.heroContainer{
+  height: 100vh;
+  width: 100vw;
+  background: #303030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.heroForm{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5rem;
+}
+
+input{
+  padding: .3rem;
+  color: black;
+}
+
+.heroButton{
+  padding: .5rem 1rem .5rem 1rem;
+  cursor: pointer;
+  color: #303030;
+  text-transform: uppercase;
+}
+
+.cardContainer{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.heroCard{
+  width: 200px;
+  height: 100px;
+  background-color: #242424;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
